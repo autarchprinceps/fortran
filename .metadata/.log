@@ -1,0 +1,140 @@
+!SESSION 2014-10-24 00:33:11.339 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2014-10-24 00:34:02.279
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+!SESSION 2014-10-24 00:38:15.905 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2014-10-24 00:38:27.997
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.ui 2 2 2014-10-24 00:39:48.505
+!MESSAGE Invalid preference category path: org.eclipse.ptp.ui.preferences.ptpPreferencesPage (bundle: org.eclipse.ptp.pldt.common, page: org.eclipse.ptp.pldt.common.prefs.PLDTPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2014-10-24 00:39:48.507
+!MESSAGE Invalid preference category path: org.eclipse.ptp.ui.preferences.ptpPreferencesPage (bundle: org.eclipse.ptp.rm.jaxb.control.ui, page: org.eclipse.ptp.internal.rm.jaxb.control.ui.preferences.JAXBRMPreferencesPage)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-10-24 00:42:48.195
+!MESSAGE No Condition--> Process 1 (org.eclipse.cdt.core.CreateSourceFolder)-->Success: Executed successfully with args: [projectName:PI_MPI, path:src]
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-10-24 00:42:48.196
+!MESSAGE No Condition--> Process 2 (org.eclipse.cdt.core.AddFiles)-->Success: Executed successfully with args: [projectName:PI_MPI, files:{{source:src/Basename.f90, target:src/PI_MPI.f90, replaceable:true}}]
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-10-24 00:42:48.196
+!MESSAGE No Condition--> Process 3 (org.eclipse.cdt.core.CreateFolder)-->Success: Executed successfully with args: [projectName:PI_MPI, path:bin]
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-10-24 00:42:51.464
+!MESSAGE Indexed 'PI_MPI' (0 sources, 0 headers) in 0,08 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.jface 2 0 2014-10-24 00:43:01.016
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-24 00:43:01.016
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7df7d5cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Opens an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c95213a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.photran.ui.OpenDeclarationCommand,Open Declaration,
+		Open Declaration,
+		Category(org.eclipse.photran.ui.NavigationCategory,Navigation,Navigation,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@345236c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.photran.ui.FortranEditorContext,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-24 00:43:01.016
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77eab063,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Renames the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@347042e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.photran.ui.RenameRefactoringCommand,Rename...,
+		,
+		Category(org.eclipse.photran.ui.RefactoringCategory,Fortran Refactoring Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11c929a2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.photran.ui.FortranEditorContext,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-24 00:43:01.016
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,References in Workspace,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3408c95b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Searches for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16c30e11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.photran.ui.vpg.FortranFindReferencesWorkspaceCommand,Find All References in Workspace,
+		Searches the workspace for all references to a Fortran identifier,
+		Category(org.eclipse.photran.ui.SearchCategory,Fortran Search,Fortran Search,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20120154,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.photran.ui.FortranEditorContext,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-10-24 00:44:28.820
+!MESSAGE Indexed 'Tutorial' (0 sources, 0 headers) in 0,003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)

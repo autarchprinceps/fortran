@@ -1,0 +1,7 @@
+EnableContentAssist=true
+EnableDeclView=true
+EnableHoverTip=true
+EnableVPG=true
+FortranIncludePaths=/PI_MPI\n
+FortranModulePaths=/PI_MPI\n
+eclipse.preferences.version=1
